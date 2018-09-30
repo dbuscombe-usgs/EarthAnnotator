@@ -1,0 +1,15 @@
+name: earthannotator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - bokeh
+  - holoviews
+  - datashader
+  - param
+  - geoviews
+  - earthsim
+  - imageio
+  - numpy
+  
