@@ -1,5 +1,6 @@
 import os
 import ipywidgets as widgets
+from glob import glob
 
 # =========================================================
 class FileBrowser(object):

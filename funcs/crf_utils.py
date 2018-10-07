@@ -16,7 +16,7 @@ def write_label_image(imfile, out):
    imwrite(name+'_mres_label.png', out)
 
 # =========================================================
-def get_sparse_label(anno, nx, ny, labels):
+def get_sparse_label(anno, nx, ny, labels, brush):
 
    Lc = np.zeros((nx, ny))
    for k in range(len(labels)):
