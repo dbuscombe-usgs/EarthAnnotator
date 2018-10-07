@@ -10,7 +10,8 @@ Credits: Thanks to code contributions from [Colin Talbert](https://github.com/ta
 
 ## Run online through your browser:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/dbuscombe-usgs/EarthAnnotator/master?filepath=Demo_Holoviews_Image_annotation.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/dbuscombe-usgs/EarthAnnotator/master?filepath=EarthAnnotator.ipynb)
+
 
 
 ## Install on your own computer
@@ -27,16 +28,16 @@ Create a conda environment:
 conda env create -f binder\environment.yml 
 ```
 
-Activate the conda environment:
+Activate the conda environment (called ```EA```):
 
 ```
-conda activate earthannotator
+conda activate EA
 ```
 
 Add the kernel to jupyter:
 
 ```
-python -m ipykernel install --user --name earthannotator --display-name "Python (earthannotator)"
+python -m ipykernel install --user --name EA --display-name "Python (earthannotator)"
 ```
 
 Run the notebook (shows up in your web browser):
