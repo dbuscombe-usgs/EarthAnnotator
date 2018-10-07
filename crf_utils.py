@@ -44,7 +44,7 @@ def get_rgb(res, labels, colors):
       out[:,:,0][res==k] = label_defs[k].color[0]
       out[:,:,1][res==k] = label_defs[k].color[1]
       out[:,:,2][res==k] = label_defs[k].color[2]
-	return out
+   return out
 	
 # =========================================================
 def get_labels_and_colors(label_editor):
