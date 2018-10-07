@@ -1,24 +1,38 @@
-name: earthannotator
+name: EA
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python
   - pyviz/label/earthsim::bokeh=1.0.0dev5 
+  - pydensecrf
+  - cython
+  - Pillow
+  - scipy
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - joblib
+  - opencv
+  - ipython
+  - tensorflow
+  - tensorflow-hub
+  - jupyter
+  - tqdm
+  - s3fs
+  - gdal
+  - rasterio  
   - holoviews
   - datashader
   - param
   - geoviews
   - earthsim
-  - imageio
   - numpy
-  - jupyter
   - fiona
   - cartopy
   - xarray
   - geopandas
   - notebook
-  - opencv
   - gsshapy
   - pyviz/label/earthsim::gssha=7.12+pyviz.0
   - pyviz/label/earthsim::filigree=0.2.2+pyviz.0
@@ -32,11 +46,9 @@ dependencies:
   - pyviz/label/earthsim::holoviews=1.11.0a6
   - pyviz/label/earthsim::geoviews=1.5.4a8
   - pyviz/label/earthsim::panel=0.1.0a11
-  - scikit-image
   - pyviz/label/earthsim::x264
   - pyviz/label/earthsim::zeromq
   - pyviz/label/earthsim::libkml
-  - numpy=1.14.5
   - pyviz/label/earthsim::scipy=1.1.0
   - pyviz/label/earthsim::nbsmoke
   
