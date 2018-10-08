@@ -12,6 +12,7 @@ Credits: Thanks to code contributions from [Colin Talbert](https://github.com/ta
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/dbuscombe-usgs/EarthAnnotator/master?filepath=EarthAnnotator.ipynb)
 
+Example instructional video [here](https://www.youtube.com/watch?v=oGKWWCb_Bvs&feature=youtu.be)
 
 
 ## Install on your own computer
