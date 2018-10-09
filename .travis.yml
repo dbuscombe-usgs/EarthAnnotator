@@ -23,5 +23,5 @@ before_install:
 
 script:
   - if [[ $TEST_TARGET == 'default' ]]; then
-      pytest --nbval EarthAnnotator-test.ipynb
+      pytest --nbval EarthAnnotator-test.ipynb ;
     fi
