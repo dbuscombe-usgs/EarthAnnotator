@@ -1,0 +1,27 @@
+language: minimal
+
+sudo: false
+
+matrix:
+  fast_finish: true
+  include:
+    - name: "default"
+      env: TEST_TARGET=default
+
+before_install:
+  - wget http://bit.ly/miniconda -O miniconda.sh
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - conda config --set always_yes yes --set changeps1 no --set show_channel_urls true
+  - conda update conda
+  - conda config --add channels conda-forge --force
+  - conda config --remove channels defaults
+  - conda env create --name EA --file binder/environment.yml
+  - source activate EA
+  # testing packages
+  - conda install nbval
+
+script:
+  - if [[ $TEST_TARGET == 'default' ]]; then
+      pytest --nbval EarthAnnotator-test.ipynb
+    fi
