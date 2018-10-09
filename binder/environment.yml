@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
+  - python=3.6
   - pyviz/label/earthsim::bokeh=1.0.0dev5 
   - pydensecrf
   - Pillow
