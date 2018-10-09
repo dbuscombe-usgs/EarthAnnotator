@@ -2,35 +2,11 @@ name: EA
 channels:
   - conda-forge
 dependencies:
-  - python
-  - bokeh
-  - pydensecrf
-  - Pillow
-  - scipy
+  - python=3.6
+  - pyviz/label/earthsim::holoviews=1.11.0a6
+  - imageio
+  - ipywidgets
   - matplotlib
-  - ipython
-  - jupyter  
-  - holoviews
-  - datashader
-  - param
-  - geoviews
-  - earthsim
   - numpy
-  - xarray
-  - geopandas
-  - notebook
-  - lancet
-  - colorcet
-  - datashader
-  - param
-  - parambokeh
-  - paramnb
-  - pyct
-  - holoviews
-  - geoviews
-  - panel
-  - x264
-  - zeromq
-  - libkml
-  - scipy
-  - nbsmoke
+  - pillow
+  - pydensecrf
