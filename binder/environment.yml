@@ -1,43 +1,13 @@
 name: EA
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python
-  - pyviz/label/earthsim::bokeh=1.0.0dev5 
-  - pydensecrf
-  - Pillow
-  - scipy
-  - matplotlib
-  - ipython
-  - jupyter  
-  - holoviews
-  - datashader
-  - param
-  - geoviews
-  - earthsim
-  - numpy
-  - fiona
-  - cartopy
-  - xarray
-  - geopandas
-  - notebook
-  - gsshapy
-  - pyviz/label/earthsim::gssha=7.12+pyviz.0
-  - pyviz/label/earthsim::filigree=0.2.2+pyviz.0
-  - lancet
-  - colorcet
-  - pyviz/label/earthsim::datashader=0.6.7
-  - pyviz/label/earthsim::param=1.8.0a6
-  - pyviz/label/earthsim::parambokeh=0.2.3
-  - pyviz/label/earthsim::paramnb=2.0.4
-  - pyviz/label/earthsim::pyct=0.4.4a10
+  - python=3.6
   - pyviz/label/earthsim::holoviews=1.11.0a6
-  - pyviz/label/earthsim::geoviews=1.5.4a8
-  - pyviz/label/earthsim::panel=0.1.0a11
-  - pyviz/label/earthsim::x264
-  - pyviz/label/earthsim::zeromq
-  - pyviz/label/earthsim::libkml
-  - pyviz/label/earthsim::scipy=1.1.0
-  - pyviz/label/earthsim::nbsmoke
-  
+  - pyviz/label/earthsim::panel=0.1.0a14
+  - imageio
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pillow
+  - pydensecrf
