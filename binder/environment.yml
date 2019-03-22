@@ -3,6 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
+  - scipy
+  - joblib
   - pyviz/label/earthsim::holoviews=1.11.0a6
   - pyviz/label/earthsim::panel=0.1.0a14
   - imageio
